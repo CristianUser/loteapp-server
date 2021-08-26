@@ -1,0 +1,14 @@
+_schema:
+  name: String
+  lastname: String
+  username: String
+  idCard: String
+  email:
+    type: String
+    required: true
+  password:
+    type: String
+    required: true
+  saltSecret: String
+_options:
+  timestamps: true

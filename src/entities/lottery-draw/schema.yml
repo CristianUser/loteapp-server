@@ -1,0 +1,22 @@
+_schema:
+  lottery:
+    type: String
+    ref: Lottery
+    required: lottery id is required
+  title: String
+  logo: String
+  drawType:
+    type: String
+    default: 'number'
+  range:
+    type: String
+    default: '0-100'
+  length:
+    type: Number
+    default: 3
+  repeatable:
+    type: Boolean
+    default: false
+  isActive:
+    type: Boolean
+    default: true

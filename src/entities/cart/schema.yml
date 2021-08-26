@@ -1,0 +1,12 @@
+_schema:
+  customer:
+    type: String
+    ref: Customer
+    required: customer id is required
+  items:
+    type: [Object]
+  isActive:
+    type: Boolean
+    default: true
+_options:
+  timestamps: true

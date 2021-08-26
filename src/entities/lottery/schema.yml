@@ -1,0 +1,6 @@
+_schema:
+  name: String
+  description: String
+  isActive:
+    type: Boolean
+    default: true
